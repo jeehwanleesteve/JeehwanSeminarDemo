@@ -17,7 +17,8 @@ data = sio.loadmat('/mnist.mat')
 image = data['images']
 label = data['label']
 
-n_training = 2000
+n_training = 5000
+#blahblah
 n_test = 6000
 training_index = np.arange(n_training)
 test_index = np.arange(n_training, n_training + n_test)
